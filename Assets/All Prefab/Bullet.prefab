@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 1870680664300282760}
   - component: {fileID: 3534620597618364132}
   - component: {fileID: 4234922917321630407}
-  - component: {fileID: -7975704417664311708}
+  - component: {fileID: -4756187089340373352}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Bullet
+  m_TagString: Apple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8618950205896507513}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -61.64206, y: 7.5375504, z: 0}
   m_LocalScale: {x: 5.499, y: 5.499, z: 5.499}
   m_ConstrainProportionsScale: 0
@@ -116,7 +116,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!70 &-7975704417664311708
+--- !u!70 &-4756187089340373352
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,6 +150,6 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.015624372, y: 0.020864552}
-  m_Size: {x: 0.19467373, y: 0.19467373}
+  m_Offset: {x: 0.016239827, y: 0.015932404}
+  m_Size: {x: 0.16363318, y: 0.16360827}
   m_Direction: 0

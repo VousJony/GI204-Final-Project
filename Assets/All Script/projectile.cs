@@ -35,9 +35,13 @@ public class projectile : MonoBehaviour
     {
         Vector2 distance = target - origin;
 
+        // คำนวณความเร็วในแกน X
         float velocityX = distance.x / time;
-        float velocityY = distance.y / time + 0.5f * Mathf.Abs(Physics2D.gravity.y) * time;
 
+        // คำนวณความเร็วในแกน Y (เพิ่มแรงดึงดูด)
+        float velocityY = (distance.y / time) + 0.5f * Mathf.Abs(Physics2D.gravity.y) * time;
+
+        // ส่งกลับความเร็วเป็น Vector2
         return new Vector2(velocityX, velocityY);
     }
 }
