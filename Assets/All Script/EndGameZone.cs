@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EndGameZone : MonoBehaviour
 {
-    private GameManager gameManager;
+    private UIGameManager gameManager;
     public GameObject LittleJony;
     public GameObject CloseJony;
 

@@ -7,11 +7,11 @@ public class ScoreCount : MonoBehaviour
     
 
     public int point;
-    private GameManager gameManager;
+    private UIGameManager gameManager;
 
     void Start()
     {
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gameManager = GameObject.Find("GameManager").GetComponent<UIGameManager>();
     }
     
 
