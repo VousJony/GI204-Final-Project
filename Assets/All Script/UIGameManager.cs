@@ -33,7 +33,6 @@ public class UIGameManager : MonoBehaviour
 
     private int Health;
     private int score;
-    private bool isGameActive = true;
 
   
 
