@@ -4,16 +4,16 @@ using UnityEngine;
 public class EndGameZone : MonoBehaviour
 {
     private UIGameManager gameManager;
-    public GameObject LittleJony;
+    public GameObject JonyEndGame;
     public GameObject CloseJony;
 
 
-    private void OnCollisionEnter(Collision player)
+    private void OnCollisionEnter2D(Collision2D player)
     {
         if (player.gameObject.CompareTag("Player"))
         {
             Debug.Log("Game End");
-            LittleJony.SetActive(true);
+            JonyEndGame.SetActive(true);
             CloseJony.SetActive(false);
         }
     }
