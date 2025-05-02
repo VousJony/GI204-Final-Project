@@ -16,7 +16,7 @@ public class BombScoreCount : MonoBehaviour
     }
     
 
-    private void OnCollisionEnter(Collision Player)
+    private void OnCollisionEnter2D(Collision2D Player)
     {
         if (Player.gameObject.CompareTag("Player"))
         {
