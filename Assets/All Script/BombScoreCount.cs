@@ -2,11 +2,12 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 
-public class ScoreCount : MonoBehaviour
+public class BombScoreCount : MonoBehaviour
 {
     
 
     public int point;
+    private int DeHealth = -1;
     private UIGameManager gameManager;
 
     void Start()
@@ -15,13 +16,15 @@ public class ScoreCount : MonoBehaviour
     }
     
 
-    private void OnCollisionEnter2D(Collision2D Player)
+    private void OnCollisionEnter(Collision Player)
     {
         if (Player.gameObject.CompareTag("Player"))
         {
             gameManager.UpdateScore(point);
+            gameManager.DeleteScore(DeHealth);
             Destroy(gameObject);
-            Debug.Log("+1");
+            Debug.Log("Boom!");
+            
             
         }
     }
