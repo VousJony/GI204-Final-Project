@@ -15,7 +15,7 @@ public class ScoreCount : MonoBehaviour
     }
     
 
-    private void OnCollisionEnter(Collision Player)
+    private void OnCollisionEnter2D(Collision2D Player)
     {
         if (Player.gameObject.CompareTag("Player"))
         {
