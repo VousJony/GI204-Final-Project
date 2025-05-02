@@ -10333,7 +10333,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targets: []
   scoreText: {fileID: 2004688477063209306}
-  scoreTextSummay: {fileID: 7554759079529340282}
+  scoreTextSummary: {fileID: 7554759079529340282}
+  scoreSummaryDefeat: {fileID: 2278483420006386483}
   HealthText: {fileID: 3683706452925927785}
   titleScreen: {fileID: 4241892633697000404}
   gameOverScreen: {fileID: 195678097156506195}
@@ -21602,7 +21603,7 @@ GameObject:
   - component: {fileID: 5385465152403757291}
   - component: {fileID: 2278483420006386483}
   m_Layer: 5
-  m_Name: Score Summary Int
+  m_Name: Score Summary Defeat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
