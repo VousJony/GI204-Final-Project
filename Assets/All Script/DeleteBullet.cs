@@ -21,7 +21,7 @@ public class DeleteBullet : MonoBehaviour
         {
             //Good
         }
-        else
+        if (Hit.gameObject.CompareTag("Untagged"))
         {
             Destroy(gameObject);
         }
